@@ -34,7 +34,7 @@ public class StudentDaoImpl implements StudentDao {
 
 	@Override
 	public Student getStudent(int studentId) {
-		return (Student)sessionFactory.getCurrentSession().get(Student.class, studentId)
+		return (Student)sessionFactory.getCurrentSession().get(Student.class, studentId);
 		
 	}
 
